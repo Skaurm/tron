@@ -1,0 +1,62 @@
+#mainPlayArea {
+	width: 1200px;
+	height: 600px;
+	margin:auto;
+	border:2px solid gray;
+}
+#player1Head, #player2Head {
+	height: 10px;
+	width: 10px;
+	position:relative;
+	opacity: 0;
+}
+
+#player1Head {
+	background-color: blue;
+	margin-bottom: -10px;
+}
+#player2Head {
+	background-color: orange;
+
+}
+#gridTemp {
+	width: 1200px;
+	height: 600px;
+	margin:auto;
+	position:relative;
+	margin-top: -602px;
+	z-index: -1;
+}
+.grid {
+	height: 100px;
+	width: 100px;
+	float:left;
+	background-image: url("grid4.png");
+	background-size:cover;
+	background-repeat: none;
+	background-position: center;
+}
+
+
+.player1Track {
+	width:0;
+	height:0;
+	padding:0 10px 10px 0;
+	margin: 0 -10px -10px 0;
+	background-color: rgba(0, 7, 255, 0.5);
+	position:relative;
+}
+.player2Track {
+	width:0;
+	height:0;
+	padding:0 10px 10px 0;
+	margin: 0 -10px -10px 0;
+	background-color: rgba(255, 154, 4, 0.5);
+	position:relative;
+}
+#info {
+	width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
