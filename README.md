@@ -7,4 +7,4 @@
 * The last player to run into a track or into a wall wins
 
 
-This program runs entirely on Javascript, with the help of jQuery.
+This program runs entirely on Javascript, with the help of jQuery
